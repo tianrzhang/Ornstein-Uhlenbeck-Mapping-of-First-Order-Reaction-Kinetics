@@ -1,4 +1,4 @@
-# Ornstein-Uhlenbeck-Mapping-of-First-Order-Reaction-Kinetics
+# Ornstein-Uhlenbeck Mapping of First Order Reaction Kinetics
 Stochastic model of glucose mutarotation, validated against deterministic rate law and stochastic kinetics of Gillespie process. 
 # Overview
 This project utilises the mean-reverting, Gauss-Markov nature of the Ornstein-Uhlenbeck process to simulate the reaction kinetics of the first order equilibrium reaction of Glucose mutarotation. It was demonstrated that the Ornstein-Uhlenbeck process reproduces both the deterministic rate law trajectory and the stochastic kinetics of the Gillespie approach at macroscopic levels.
