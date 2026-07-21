@@ -1,0 +1,1 @@
+# Ornstein-Uhlenbeck-Mapping-of-First-Order-Reaction-Kinetics
