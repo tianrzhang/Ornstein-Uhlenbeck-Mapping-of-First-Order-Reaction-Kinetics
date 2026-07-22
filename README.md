@@ -11,7 +11,7 @@ To numerically process the Ornstein-Uhlenbeck model, the Euler-Maruyama scheme w
 
 ![A graph demonstrating the relationship between the relative staandard deviation and N on log-log axes](relative.png)
 
-![A figure showing the convergence of the Ornstein-Uhlenbeck to the exact Gillespie model](Gillespie_OU.png)
+![A figure showing the convergence of the Ornstein-Uhlenbeck to the exact Gillespie model](Gillespie_vs_OU.png)
 
 # Key Findings
 Absolute standard deviation increases along with N. For a log-log relationship, for every N, standard deviation increases by 1/2. Absolute standard deviation is proportional to the square root N.
