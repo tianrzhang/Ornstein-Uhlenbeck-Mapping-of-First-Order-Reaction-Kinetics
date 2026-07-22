@@ -5,7 +5,7 @@ This project utilises the mean-reverting, Gauss-Markov nature of the Ornstein-Uh
 # Process
 To numerically process the Ornstein-Uhlenbeck model, the Euler-Maruyama scheme was used so that the SDE of the process could be discretised. Key parameters that could be used globally were mapped out first, followed by individual terms of the function, mean-reversion and noise. AR(1) regression was then utilised to conduct parameter recovery of core values: theta, miu, sigma.
 # Results
-![A graph demonstrating at large N values, the deterministic approximation matches the Ornstein-Uhlenbeck model](deterministic_overlay.png)
+![A graph demonstrating at large N values, the deterministic approximation matches the Ornstein-Uhlenbeck model](deterministicoverlay.png)
 
 ![A graph demonstrating the relationship between the absolute standard deviation and N on log-log axes](absolute.png)
 
