@@ -25,4 +25,4 @@ Rate constants: DOI 10.1021/jp906523s
 
 Gardiner, Handbook of Stochastic Methods (OU process, §3.7-3.8)
 # Notes
-Please see here for full write up: ![Write-up]()
+Please see here for full write up: ![Write-up](Ornstein-Uhlenbeck_mapping_of_First_Order_Reaction_Kinetics_at_Equilibrium.pdf)
