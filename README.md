@@ -5,13 +5,13 @@ This project utilises the mean-reverting, Gauss-Markov nature of the Ornstein-Uh
 # Process
 To numerically process the Ornstein-Uhlenbeck model, the Euler-Maruyama scheme was used so that the SDE of the process could be discretised. Key parameters that could be used globally were mapped out first, followed by individual terms of the function, mean-reversion and noise. AR(1) regression was then utilised to conduct parameter recovery of core values: theta, miu, sigma.
 # Results
-![A graph demonstrating at large N values, the deterministic approximation matches the Ornstein-Uhlenbeck model](figure/deterministic_overlay.png)
+![A graph demonstrating at large N values, the deterministic approximation matches the Ornstein-Uhlenbeck model](deterministic_overlay.png)
 
-![A graph demonstrating the relationship between the absolute standard deviation and N on log-log axes](figure/absolute.png)
+![A graph demonstrating the relationship between the absolute standard deviation and N on log-log axes](absolute.png)
 
-![A graph demonstrating the relationship between the relative staandard deviation and N on log-log axes](figure/relative.png)
+![A graph demonstrating the relationship between the relative staandard deviation and N on log-log axes](relative.png)
 
-![A figure showing the convergence of the Ornstein-Uhlenbeck to the exact Gillespie model](figure/Gillespie_OU.png)
+![A figure showing the convergence of the Ornstein-Uhlenbeck to the exact Gillespie model](Gillespie_OU.png)
 
 # Key Findings
 Absolute standard deviation increases along with N. For a log-log relationship, for every N, standard deviation increases by 1/2. Absolute standard deviation is proportional to the square root N.
